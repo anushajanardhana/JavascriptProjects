@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1>span {
+    color: red;
+}
+
+button {
+    background-color: teal;
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    border: 0;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkslategrey;
+}
+
+h1 {
+    margin: 3rem;
+    padding: 2rem;
+    background: blue;
+    border: 23px solid salmon;
+}
+
+p {
+    margin: 2rem;
+}
+
+/* Box Model in CSS: 
+Content is the innermost box. Nucleus. 
+Padding surrounds content. K Orbital. 
+Border surrounds padding. L Orbital.
+Margin is the outermost box. M Orbital. */
